@@ -1,4 +1,3 @@
-// components/ServiceStatusBadge.tsx
 'use client'; 
 import React from 'react';
 import { ServiceStatus } from '../types';

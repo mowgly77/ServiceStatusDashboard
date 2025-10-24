@@ -1,4 +1,3 @@
-// data/mockData.ts
 import { Service } from '../types';
 
 export const REAL_SERVICE_DATA: Service[] = [

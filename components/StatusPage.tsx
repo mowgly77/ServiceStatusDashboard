@@ -1,4 +1,3 @@
-// components/StatusPage.tsx
 'use client'; 
 import React from 'react';
 import { Service } from '../types';
@@ -10,7 +9,6 @@ interface Props {
 }
 
 const sortServices = (services: Service[]): Service[] => {
-  // Sort alphabetically by name as per requirement
   return [...services].sort((a, b) => a.name.localeCompare(b.name));
 };
 
